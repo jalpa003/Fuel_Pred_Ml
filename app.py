@@ -24,8 +24,8 @@ def predict_Conventional_Fuel(Eng_Displ,Cyl,Gears,Gasoline,Intake_Valves,Exhaust
 def main():
     st.title("Conventional Fuel Prediction")
     Eng_Displ = st.text_input("Eng_Displ","Type Here")
-    Cyl = st.text_input("# Cyl","Type Here")
-    Gears = st.text_input("# Gears","Type Here")
+    Cyl = st.text_input("#Cyl","Type Here")
+    Gears = st.text_input("#Gears","Type Here")
     Gasoline = st.text_input("Max Ethanol % - Gasoline ", "Type Here")
     Intake_Valves = st.text_input("Intake Valves Per Cyl","Type Here")
     Exhaust_Valves = st.text_input("Exhaust Valves Per Cyl","Type Here")
